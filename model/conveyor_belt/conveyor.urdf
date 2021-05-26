@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+  <robot name="conveyor_belt">
+
+    <link name="link_belt">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_belt">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://conveyor_belt/meshes/belt.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="link_bridge_left">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_bridge_left">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://conveyor_belt/meshes/bridge_left.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="link_bridge_right">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_bridge_right">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="model://conveyor_belt/meshes/bridge_right.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="link_flap_back">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_back_flap">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="model://conveyor_belt/meshes/flap_back.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="link_flap_front">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_flap_front">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="model://conveyor_belt/meshes/flap_front.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="link_leg_back_left">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_leg_back_left">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="model://conveyor_belt/meshes/leg_back_left.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="link_leg_back_right">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_leg_back_right">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="model://conveyor_belt/meshes/leg_back_right.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="link_leg_front_left">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_leg_front_left">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="model://conveyor_belt/meshes/leg_front_left.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="link_leg_front_right">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="visual_leg_front_right">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="model://conveyor_belt/meshes/leg_front_right.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="191,191,191"/>
+      </visual>
+    </link>
+
+    <link name="world">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+    </link>
+
+    <joint name="joint_belt" type="fixed">
+      <origin xyz="0 0.3048 1.126" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_belt"/>
+    </joint>
+
+    <joint name="joint_bridge_left" type="fixed">
+      <origin xyz="0.59689 0.3048 1.23014" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_bridge_left"/>
+    </joint>
+
+    <joint name="joint_bridge_right" type="fixed">
+      <origin xyz="-0.85089 0.3048 1.23014" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_bridge_right"/>
+    </joint>
+
+    <joint name="joint_flap_back" type="fixed">
+      <origin xyz="0 0.0127 1.182" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_flap_back"/>
+    </joint>
+
+    <joint name="joint_flap_front" type="fixed">
+      <origin xyz="0 0.59689 1.182" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_flap_front"/>
+    </joint>
+
+    <joint name="joint_leg_back_left" type="fixed">
+      <origin xyz="0.68579 -0.0254 0.556" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_leg_back_left"/>
+    </joint>
+
+    <joint name="joint_leg_back_right" type="fixed">
+      <origin xyz="-0.68579 -0.0254 0.556" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_leg_back_right"/>
+    </joint>
+
+    <joint name="joint_leg_front_left" type="fixed">
+      <origin xyz="0.68579 0.63499 0.556" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_leg_front_left"/>
+    </joint>
+
+    <joint name="joint_leg_front_right" type="fixed">
+      <origin xyz="-0.68579 0.63499 0.556" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="link_leg_front_right"/>
+    </joint>
+
+    <material name="191,191,191">
+      <color rgba="0.74902 0.74902 0.74902 1.0"/>
+    </material>
+
+  </robot>

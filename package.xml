@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>conveyor_belt</name>
+  <version>1.0.0</version>
+  <description>Moving Conveyor belt model for Gazebo</description>
+  <author>Kenneth Bogert</author>
+  <maintainer email="kbogert@unca.edu">Kenneth Bogert</maintainer>
+  <license>BSD</license>
+
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/model/"/>
+  </export>
+</package>
