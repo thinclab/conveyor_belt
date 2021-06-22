@@ -11,7 +11,7 @@
       <visual name="visual_belt">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://conveyor_belt/meshes/belt.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/belt.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
@@ -26,7 +26,7 @@
       <visual name="visual_bridge_left">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://conveyor_belt/meshes/bridge_left.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/bridge_left.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
@@ -41,7 +41,7 @@
       <visual name="visual_bridge_right">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="model://conveyor_belt/meshes/bridge_right.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/bridge_right.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
@@ -56,7 +56,7 @@
       <visual name="visual_back_flap">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="model://conveyor_belt/meshes/flap_back.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/flap_back.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
@@ -71,7 +71,7 @@
       <visual name="visual_flap_front">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="model://conveyor_belt/meshes/flap_front.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/flap_front.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
@@ -86,7 +86,7 @@
       <visual name="visual_leg_back_left">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="model://conveyor_belt/meshes/leg_back_left.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/leg_back_left.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
@@ -101,7 +101,7 @@
       <visual name="visual_leg_back_right">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="model://conveyor_belt/meshes/leg_back_right.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/leg_back_right.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
@@ -116,7 +116,7 @@
       <visual name="visual_leg_front_left">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="model://conveyor_belt/meshes/leg_front_left.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/leg_front_left.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
@@ -131,7 +131,7 @@
       <visual name="visual_leg_front_right">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="model://conveyor_belt/meshes/leg_front_right.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://conveyor_belt/model/conveyor_belt/meshes/leg_front_right.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="191,191,191"/>
       </visual>
